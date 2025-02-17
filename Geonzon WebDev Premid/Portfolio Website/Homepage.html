@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Geonzon Profile</title>
+        <link  rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8092c4dc89.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav> 
+                    <img src="logo.png" class="logo">
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p><i>Transcending limits and reaching goals.</i></p>
+                    <h1>Hello, I'm <span>Ericka</span><br>Geonzon. . .</h1>
+                </div>
+            </div>
+        </div>
+<!---------------- about ----------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="me2.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            A hard working and passionate student programmer who aims to venture into the daring 
+                            fields of cutting-edge technology. A curiosity-driven tech enthusiast with a strong 
+                            goal to foster learning, develop skills, and broaden networks. Constantly seeking 
+                            new challenges to expand technical knowledge and apply creative solutions to real-world 
+                            problems.
+                        </p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Hobbies</p>
+                                <p class="tab-links" onclick="opentab('education')">Contacts</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>HTML Programming</span></li>
+                                    <li><span>CSS Programming</span></li>
+                                    <li><span>C Programming</span></li>
+                                    <li><span>Structured Wire Cabling</span></li>
+                                    <li><span>Device Configuration</span></li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Studying</span><br>A first year college taking BS Information Technology at University of San Carlos.</li>
+                                    <li><span>Cooking</span><br>Making food and learning new dishes is a fun pastime for myself to relieve stress. </li>
+                                    <li><span>Reading</span><br>Reading is a time to gain knowledge while also developing critical thinking.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Email:</span><br>erickamgeonzon@gmail.com</li>
+                                    <li><span>Facebook:</span><br>Ericka Geonzon</li>
+                                    <li><span>Linkedin:</span><br>Ericka Maelyn Geonzon</li>
+                                    <li><span>Contact number:</span><br>(+63) 966 3748 94</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-------------------------------------------------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="services-list">
+            <div>
+                <h2>Research Study</h2>
+                <p style="text-align: justify;">PROPOSED ELECTROWALK: A Mechanical Stress-Dependent Piezoelectricity-Generating Walk Path For The General Public And Local Government Authorities In Brngy. Tabunok, Talisay City, Cebu</p>
+            </div>
+            <div>
+                <h2>Papel ng Pananaliksik</h2>
+                <p style="text-align: justify;">Mga Salik na Nakapagbibigay ng Presyur sa mga Estudyante sa Ika Labing-Isa na Baitang ng Siyensiya, Teknolohiya, Inhinyero at Matematika (STEM) Strand ng University of San Jose - Recoletos sa A.Y. 2022-2023</p>
+            </div>
+            <div>
+                <h2>Business Plan</h2>
+                <p>A business project plan of the Visionary Avant-Garde Corporation introducing the <i>"Electrowalk"</i>, a new way of generating energy using the locomotive abilities of the general public, offering a wide range of benefits to local communities.</p>
+            </div>
+            <div>
+                <h2>GDGoC Infosession 2024</h2>
+                <p>This event lets participants engage with the dynamic world of technology and innovation. Introducing participants to the resources, workshops, and collaborative projects offered by GDGoC will empower aspiring developers to broaden their networks and enhance their skills.</p>
+            </div>
+            <div>
+                <h2>Git and GitHub Workshop</h2>
+                <p>From initializing repositories to using basic Git commands to manage your code. Explore the process of forking, branching, and submitting pull requests on GitHub, and learn how to resolve merge conflicts effectively. </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p style="color: #9e4249;"><i class="fa-solid fa-paper-plane"></i>erickageonzon4@gmail.com</p>
+                <p style="color: #9e4249;"><i class="fa-solid fa-phone"></i>9776434558996</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/erickageonzon/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/erickageonzon/"><i class="fa-brands fa-square-instagram"></i></i></a>
+                    <a href="https://www.linkedin.com/in/ericka-maelyn-geonzon-22b706325/"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2024 Geonzon. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/a/macros/usc.edu.ph/s/AKfycbxnYmQPLMQeSHEe7AvIdg_8r0Yd604bHVlr_qoqJaGNzF5NuDTIxC0DFg24jkvdWya5MA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+    </body>
+</html>
